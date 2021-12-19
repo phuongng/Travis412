@@ -15,4 +15,12 @@ public class SimpleCalculatorTest {
 		SimpleCalculator calc = new SimpleCalculator();
 		assertEquals(calc.minus(5, 3), 2);
 	}
+	public void testMultiply() {
+		SimpleCalculator calc = new SimpleCalculator();
+		assertEquals(calc.multiply(2, 2), 4);
+	}
+	public void testDevide() {
+		SimpleCalculator calc = new SimpleCalculator();
+		assertEquals(calc.devide(9, 3), 3);
+	}
 }
